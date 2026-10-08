@@ -197,4 +197,4 @@ python eval/run_eval.py --tag v2_ft --out eval/results_v2_ft.md
 
 ## ライセンス
 
-<!-- TODO: コードのライセンスを決める（MITが一般的） -->
+MIT License（[LICENSE](LICENSE) を参照）。データセットはそれぞれのライセンスに従います（上の表を参照）。

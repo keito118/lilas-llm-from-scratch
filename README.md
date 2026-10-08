@@ -168,4 +168,4 @@ Other measurements on the current model: emotion inference improved from 30–40
 
 ## License
 
-<!-- TODO: choose a license for the code (MIT is a common choice) -->
+MIT License, see [LICENSE](LICENSE). Datasets keep their own licenses (see above).
