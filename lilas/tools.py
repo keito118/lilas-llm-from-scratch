@@ -25,7 +25,7 @@ _TIMEOUT = 4.0  # 秒。会話のテンポを崩さないよう短めに設定
 # WikipediaのAPIはUser-Agent未設定のリクエストを403で拒否するポリシーがある
 # (https://w.wiki/4wJS)。プロジェクト名+連絡先相当の情報を名乗る
 _WIKI_HEADERS = {
-    "User-Agent": "ProjectLilas/1.0 (personal hobby project; https://github.com/)"
+    "User-Agent": "ProjectLilas/1.0 (personal hobby project; https://github.com/keito118/lilas-llm-from-scratch)"
 }
 
 _WEEKDAY_JA = ["月", "火", "水", "木", "金", "土", "日"]
