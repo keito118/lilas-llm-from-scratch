@@ -156,6 +156,8 @@ Other measurements on the current model: emotion inference improved from 30–40
 - **Inference-time tricks must be re-tested after every model change.** A self-introduction "priming" prefix that was harmless at 256 tokens made the 1024-token model introduce itself in reply to unrelated questions, and was removed.
 - **Some limits are structural.** The tokenizer splits numbers irregularly (`50000` → `500`+`00`, `45000` → `45`+`000`), so recalling arbitrary numbers from context could not be learned; with ~40M parameters, trained entities kept fusing. In both cases the decision was to stop adding data and let code decide the answer.
 
+Write-up: [Why my from-scratch Japanese LLM says "That sounds tough" to good news](https://dev.to/keito118/why-my-from-scratch-japanese-llm-says-that-sounds-tough-to-good-news-3k15) (dev.to). How counting the training data, then weighting it by the real training mix, traced why Lilas answered good news with sympathy.
+
 ## Data and licenses
 
 | Data | License | Included |
