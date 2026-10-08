@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+checkpoints/
+*.pt
+.venv/
+venv/
+
+# 大規模・外部データセット(scripts/fetch_datasets.py で再取得できる)
+index/external_*.txt
+index/instruct_*.txt
+
+# ローカルのClaude Code設定
+.claude/
